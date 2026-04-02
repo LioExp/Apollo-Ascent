@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jEZFl5ayNZIJibnKsRzxRvY8U33J/apza17/zvIvcyV6avhKqZ+18Bio7v5c0TBq0IXCq000a7Tdmqu/JJW/nQ==",
+  "success": true,
+  "projectFilePath": "/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/AGC.vbproj",
+  "expectedPackageFiles": [
+    "/home/lio/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/bin/Debug/net8.0/AGC
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/bin/Debug/net8.0/AGC.deps.json
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/bin/Debug/net8.0/AGC.runtimeconfig.json
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/bin/Debug/net8.0/AGC.dll
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/bin/Debug/net8.0/AGC.pdb
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/AGC.GeneratedMSBuildEditorConfig.editorconfig
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/AGC.AssemblyInfoInputs.cache
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/AGC.AssemblyInfo.vb
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/AGC.vbproj.CoreCompileInputs.cache
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/AGC.sourcelink.json
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/AGC.dll
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/refint/AGC.dll
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/AGC.pdb
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/AGC.genruntimeconfig.cache
+/home/lio/Documents/Area_Dev/Projetos/Apollo-Ascent/apollo/AGC/obj/Debug/net8.0/ref/AGC.dll
