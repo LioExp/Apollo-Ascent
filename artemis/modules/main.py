@@ -17,10 +17,15 @@ def contagem_regressiva():
     for i in range(10,-1, -1):
         print(i)
         sleep(1)
+
 def abortar_missão():
     print('abortando a missão...')
     sys.exit()
         
+def decolagem():
+    for i in range(0, 101, 10):
+        print(f'Altitude: {i}Km')
+        sleep(1)
     
 while True:
     usuario = input("digite seu pedido: ").strip()
@@ -45,6 +50,8 @@ while True:
 
             elif verb == "v04":
                 abortar_missão()
+            elif verb == 'v05':
+                decolagem()
 
 
         elif verb not in verbs:
