@@ -26,8 +26,15 @@ def abortar_missão():
 def decolagem():
     for i in range(0, 101, 10):
         nave["altitude"]= i
-        print(f'Altitude: {nave["altitude"]}Km')
+        nave['velocidade'] = i*2
+        nave['combustivel'] = nave['combustivel'] - i
+        if nave['combustivel'] <= 0:
+            print('Aviso!, combustivel insuficiênte.')
+            break
+        else:
+            print(f'Altitude: {nave["altitude"]}Km\nVelocidade: {nave["velocidade"]}Km/s\nCombustivel: {nave["combustivel"]}')
         sleep(1)
+
     
 while True:
     usuario = input("digite seu pedido: ").strip()
