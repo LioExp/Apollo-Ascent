@@ -12,6 +12,7 @@ nouns = {
     'n01':'posição',
     'n02':'velocidade'
     }
+nave = {'altitude': 0, 'velocidade': 0, 'combustivel': 99}
 
 def contagem_regressiva():
     for i in range(10,-1, -1):
@@ -24,7 +25,8 @@ def abortar_missão():
         
 def decolagem():
     for i in range(0, 101, 10):
-        print(f'Altitude: {i}Km')
+        nave["altitude"]= i
+        print(f'Altitude: {nave["altitude"]}Km')
         sleep(1)
     
 while True:
