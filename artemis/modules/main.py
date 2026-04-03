@@ -26,15 +26,16 @@ while True:
         verb = partes[0]
         noun = partes[1]
 
-        if verb in verbs:
+        if verb in verbs and noun in nouns:
             print(verbs[verb])
-        else:
-            print(f'parece que o {verb} não existe!')
-
-        if noun in nouns:
             print(nouns[noun])
-        else:
+        elif verb not in verbs:
+            print(f'parece que o {verb} não existe!')
+        elif noun not in nouns:
             print(f'parece que o {noun} não existe!')
+
+        
+
 
     except IndexError:
         print('voce n colocou o comando completo, verifique o comando digitado')
