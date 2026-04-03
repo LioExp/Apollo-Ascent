@@ -1,3 +1,5 @@
+from time import sleep
+
 verbs = {
     'v02':'mostrar dados',
     'v03':'iniciar contagem regressiva',
@@ -9,6 +11,13 @@ nouns = {
     'n01':'posição',
     'n02':'velocidade'
     }
+
+def contagem_regressiva():
+    for i in range(10,-1, -1):
+        print(i)
+        sleep(1)
+        
+    
 
 while True:
     usuario = input("digite seu pedido: ").strip()
@@ -28,11 +37,16 @@ while True:
             print(verbs[verb])
             print(nouns[noun])
 
+            if verb == 'v03':
+                contagem_regressiva()
+
         elif verb not in verbs:
             print(f'parece que o {verb} não existe!')
-            
+
         elif noun not in nouns:
             print(f'parece que o {noun} não existe!')
+
+        
 
     except IndexError:
         print('voce n colocou o comando completo, verifique o comando digitado')
