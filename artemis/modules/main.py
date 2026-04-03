@@ -1,4 +1,5 @@
 from time import sleep
+import sys
 
 verbs = {
     'v02':'mostrar dados',
@@ -16,9 +17,11 @@ def contagem_regressiva():
     for i in range(10,-1, -1):
         print(i)
         sleep(1)
+def abortar_missão():
+    print('abortando a missão...')
+    sys.exit()
         
     
-
 while True:
     usuario = input("digite seu pedido: ").strip()
     if usuario == 'exit':
@@ -39,6 +42,10 @@ while True:
 
             if verb == 'v03':
                 contagem_regressiva()
+
+            elif verb == "v04":
+                abortar_missão()
+
 
         elif verb not in verbs:
             print(f'parece que o {verb} não existe!')
