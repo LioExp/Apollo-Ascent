@@ -10,7 +10,6 @@ nouns = {
     'n02':'velocidade'
     }
 
-
 while True:
     usuario = input("digite seu pedido: ").strip()
     if usuario == 'exit':
@@ -19,7 +18,6 @@ while True:
             break
         else:
             continue
-         
     try :
         comando = usuario 
         partes = comando.split() 
@@ -29,13 +27,12 @@ while True:
         if verb in verbs and noun in nouns:
             print(verbs[verb])
             print(nouns[noun])
+
         elif verb not in verbs:
             print(f'parece que o {verb} não existe!')
+            
         elif noun not in nouns:
             print(f'parece que o {noun} não existe!')
-
-        
-
 
     except IndexError:
         print('voce n colocou o comando completo, verifique o comando digitado')
